@@ -1,0 +1,33 @@
+/*
+import java.util.Scanner; 
+
+public class gradeAssignment {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    System.out.printIn("Enter your score:");
+    int score = scanner.nextInt();
+    String equivalentGrade;
+    if (score >= 90) {
+      equivalentGrade = "1.00 Excellent";
+      System.out.printIn("Your equivalent Grade is \"" + equivalentGrade + "\". HIGH PASS, Candidate for Cum Laude");
+    } else if (score >= 85 && score <= 89) {
+      equivalentGrade = "1.25 Excellent";
+      System.out.printIn("Your equivalent Grade is \"" + equivalentGrade + "\".");
+    } else if (score >= 82 && score <= 84) {
+      equivalentGrade = "2.00 Average";
+      System.out.printIn("Your equivalent Grade is \"" + equivalentGrade + "\".");
+    } else if (score >= 75 && score <= 81) {
+      equivalentGrade = "3.00 Below Average";
+      System.out.printIn("Your equivalent Grade is \"" + equivalentGrade + "\".");
+    } else if (score >= 72 && score <= 74) {
+      equivalentGrade = "4.00 Poor";
+      System.out.printIn("Your equivalent Grade is \"" + equivalentGrade + "\".");
+    } else if (score < 75) {
+      equivalentGrade = "Failed, Needs Improvement";
+      System.out.printIn("Your equivalent Grade is \"" + equivalentGrade + "\".");
+    }
+    
+    scanner.close();
+  }
+}
+*/
